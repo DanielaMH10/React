@@ -1,6 +1,7 @@
 import React from 'react';
 /*import Estudiante from './Estudiante';*/
-import Personajes from './Personajes';
+//import Personajes from './Personajes';
+import Formulario from './Formulario';
 
 /*const estudiantes = [
     {
@@ -71,9 +72,11 @@ const personajes = [
 const Contenedor = () => (
     <>
         {
-            personajes.map ( c => <Personajes nombre = { c.nombre} edad = { c.edad} imagen = { c.imagen}/>)
+            //personajes.map ( c => <Personajes nombre = { c.nombre} edad = { c.edad} imagen = { c.imagen}/>)
             /*estudiantes.map ( e => <Estudiante nombre = { e.nombre} edad = { e.edad} genero = { e.genero}/>)*/
         }
+
+        <Formulario />
     </>
 );
 

@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Route} from "react-route-dom";
+import Contenedor from './Contenedor';
 
 /*function App() {
   return (
@@ -23,10 +25,9 @@ import './App.css';
   );
 }*/
 
-const App = () => <fragment>
-      <h1>
-        Nuevo titulo
-      </h1>
-      <img src={logo} className="App-logo" alt="logo" />
-      </fragment>
+const App = () => (
+  <Router>
+    <Route  path="/estudiantes" exact component={ Contenedor }/>
+  </Router>
+)
 export default App;
