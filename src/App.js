@@ -6,6 +6,7 @@ import Header from './Header';
 import persoanjeDetalle from './PersoanjeDetalle';
 import MainManu from './MainMenu';
 import NoFound from './NoFound';
+import DatosAPI from './DatosAPI';
 
 
 //Route se le pasa la ruta y el componente a ejecutar 
@@ -17,6 +18,7 @@ const App = () => (
     <Route  path="/personajes" exact component={ Contenedor }/>
     <Route  path="/personajes/:id" exact component={ persoanjeDetalle }/>
     <Route  path="/contacto" exact component={ Contacto }/>
+    <Route  path="/datos_api" exact component={ DatosAPI }/>
     <Route  path="*" exact component={ NoFound }/>
     </Switch>
   </Router>

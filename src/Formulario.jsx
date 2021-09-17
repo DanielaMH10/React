@@ -36,13 +36,18 @@ class Formulario extends Component {
             <div id="elemento">
                 <h1>Formulario</h1>
                 <form action="">
-                    <label htmlFor="">Nombre</label>
+                    <label htmlFor="">Nombre: </label>
+                    <br/>
                     <input type="text" name="nombre" onChange={ this.cambiarNombre }/>
-                    <br />
-                <label htmlFor="">Apellido</label>
+                    <br/>
+                <label htmlFor="">Apellido: </label>
+                <br/>
                 <input type="text" name="apellido" onChange={ this.cambiarApellido }/>
-                <input type="submit" value="enviar"/>
+                <br/>
+                <br/>
+                <input type="submit" value="Enviar"/>
                      <br/>
+                     <hr/>
                 <h3>{`Nombre: ${this.state.nombre}`}</h3>
                 <h3>{`Apellido: ${this.state.apellido}`}</h3>
                 </form>
