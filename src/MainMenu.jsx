@@ -13,6 +13,7 @@ const MainManu = () => (
         <li className="nav-link active" aria-current="page" ><NavLink exact  to="/personajes">Personajes</NavLink></li>
         <li className="nav-link active" aria-current="page" ><NavLink exact  to="/contacto">Contactos</NavLink></li>
         <li className="nav-link active" aria-current="page" ><NavLink exact  to="/datos_api">Datos API</NavLink></li>
+        <li className="nav-link active" aria-current="page" ><NavLink exact  to="/personajes_api">Personajes API</NavLink></li>
     </ul>
       </div>
     </div>

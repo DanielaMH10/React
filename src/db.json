@@ -1,0 +1,39 @@
+{
+    "personajes": [
+    {
+        "id":1,
+        "nombre": "Martha Nielsen",
+        "edad": 20,
+        "imagen": "https://i.pinimg.com/736x/eb/7b/bd/eb7bbd6d64f309185e53ae51570b6f5c.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Jonas kahnwald",
+        "edad": 20,
+        "imagen": "https://elcomercio.pe/resizer/y3lfR-x8T3ilI9PtTghnCErG2EU=/1200x1200/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/N3X6TB5KUJCQDCE4N4I733SRZ4.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Noah",
+        "edad": 23,
+        "imagen": "https://vader.news/__export/1597639815293/sites/gadgets/img/2020/08/17/max_schimmelpfennig.jpg_1356777334.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Ulrich Nielsen",
+        "edad": 45,
+        "imagen": "https://elcomercio.pe/resizer/iEy_nEu7HDPlitozTzFXsnidQk4=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/R3XKDSIAPBEEZBAYGM6RR2IXVU.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Helge Doppler",
+        "edad": 65,
+        "imagen": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/h/hegel-doppler-personaje-dark.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Hannah Kahnwald",
+        "edad": 40,
+        "imagen": "https://elcomercio.pe/resizer/ajdVBghuDBq196M6Q0lffvprGW4=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/QQVJ2E6SBBHVPPORY3AQNGQHAM.png"
+    }
+]}

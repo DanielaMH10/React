@@ -3,7 +3,7 @@ import { unmountComponentAtNode } from "react-dom";
 import axios from "axios";
 
 
-class DatosAPI extends Component{
+class PersonajesAPI extends Component{
 
     constructor(props){
         super(props);
@@ -14,7 +14,7 @@ class DatosAPI extends Component{
     }
 
     componentDidMount(){
-        axios.get('https://jsonplaceholder.typicode.com/posts')
+        axios.get('https://my-json-server.typicode.com/DanielaMH10/PersonajesJSON/personajes')
         .then(resp => {
             this.setState({posts: resp.data})
           })
@@ -39,10 +39,15 @@ class DatosAPI extends Component{
                 {
                     posts.map( u => (
                         <>
-                        <p>{u.id}</p>
-                        <p>{u.title}</p>
-                        <p>{u.body}</p>
-                        <hr/>
+                         <div class="card" style={{width: "18rem"}}>
+                                    <img className="card-img-top" src={u.imagen} alt="Card image cap" />
+                                    <div class ="card-body" key={u.id}>
+                                    <h5 className="card-title">Nombre: {u.nombre}</h5>
+                                    </div>
+                                    <ul class ="list-group list-group-flush">
+                                    <li class ="list-group-item">Edad: {u.edad}</li>
+                                    </ul>
+                                </div>
                         </>
                     ))
                 }
@@ -52,4 +57,4 @@ class DatosAPI extends Component{
     }
 }
 
-export default DatosAPI; 
+export default  PersonajesAPI; 
